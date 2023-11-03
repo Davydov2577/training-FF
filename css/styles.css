@@ -116,9 +116,7 @@ img {
 .signUp-textarea:focus {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.50);
-
 }
-
 
 .signUp-btn {
     color: #121212;
@@ -175,6 +173,7 @@ img {
     background: #1D1D1D;
     /* transform: rotate(-90deg); */
 
+
 }
 
 .signUp-img {
@@ -201,9 +200,6 @@ img {
         padding-left: 15px;
         padding-right: 15px;
     }
-
-
-
 
     .signUp {
         padding-top: 100px;
@@ -250,7 +246,54 @@ img {
     }
 
     .signUp-last-text {
+        font-size: 14px;
+        line-height: 1.29;
         max-width: 480px;
+    }
+
+}
+
+/* ============================================== */
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .wrap-signUp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+    }
+
+    .signUp-input {
+        display: block;
+    }
+
+    .signUp-btn {}
+
+    .bnt-send {
+        text-align: left;
+    }
+
+    .signUp-list {
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .wrap-text {
+        display: block;
+    }
+
+    .wrap-img {
+        width: 540px;
+        height: 540px;
     }
 
 
@@ -260,28 +303,4 @@ img {
 
 
 
-
-
-
-
-
-
-
 }
-
-
-
-
-
-
-
-
-/* ============================================== */
-
-
-
-
-
-
-
-@media screen and (min-width: 1280px) {}
