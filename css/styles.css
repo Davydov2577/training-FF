@@ -37,7 +37,7 @@ img {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    /* padding: 0 15px; */
+
     outline: 2px solid red;
 }
 
@@ -161,63 +161,15 @@ img {
     display: none;
 }
 
-.signUp-list-obj {
-    justify-content: end;
-
-}
 
 
-
-
-.signUp-item-obj {
-
-    border-radius: 1000px;
-    background: #BEA69E;
-    width: 180px;
-    height: 288px;
-
-
-
-    /* transform: rotate(-90deg); */
-}
-
-.signUp-list-nikon {
-    /* justify-content: center;
-    align-items: center; */
-
-}
-
-
-
-
-.signUp-item-nikon {
-    width: 340px;
-    height: 540px;
-    border-radius: 1000px;
-    background: #1D1D1D;
-    justify-content: center;
-    /* transform: rotate(-90deg); */
-
-
-}
-
-.signUp-img-obj {
-    /* padding: 74px 19px; */
-
-    /* background-color: transparent; */
-
-    /* background-blend-mode: multiply; */
-}
-
-
-
-/* ===================================== */
+/* ================= END MEDIA 320 ==================== */
 
 
 @media screen and (min-width: 375px) {}
 
 
-/* ======================================= */
+/* ============= MEDIA 768 ========================== */
 
 @media screen and (min-width: 768px) {
 
@@ -280,7 +232,9 @@ img {
 
 }
 
-/* ============================================== */
+/* ================ END MEDIA 768 ===================== */
+
+/* ================== MEDIA 1280 ============================ */
 
 
 @media screen and (min-width: 1280px) {
@@ -292,6 +246,7 @@ img {
 
         display: flex;
         justify-content: center;
+
     }
 
     .wrap-signUp {
@@ -299,6 +254,8 @@ img {
         justify-content: center;
         align-items: center;
         gap: 60px;
+
+        align-items: flex-start;
     }
 
     .signUp-input {
@@ -321,19 +278,54 @@ img {
     }
 
     .wrap-img {
+        align-items: flex-start;
+
+
+
         /* display: flex;
         align-items: flex-end; */
 
-        padding: 76px 19px;
+        /* padding: 76px 19px; */
         width: 540px;
+        align-items: start;
         /* height: 540px; */
     }
 
+    .signUp-list {
+        display: flex;
+    }
+
+    /* вниз бекграунд - об'єктива */
+    .signUp-list-obj {
+        display: flex;
+        align-items: end;
+    }
+
+    .signUp-item-obj {
+        border-radius: 1000px;
+        background: #BEA69E;
+        width: 180px;
+        height: 288px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .signUp-list-nikon {}
+
+    .signUp-item-nikon {
+        width: 340px;
+        height: 540px;
+        border-radius: 1000px;
+        background: #1D1D1D;
 
 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-
-
+    .signUp-img-obj {}
 
 
 }
