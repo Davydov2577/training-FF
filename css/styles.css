@@ -243,10 +243,6 @@ img {
         max-width: 1280px;
         padding-left: 15px;
         padding-right: 15px;
-
-        display: flex;
-        justify-content: center;
-
     }
 
     .wrap-signUp {
@@ -279,16 +275,8 @@ img {
 
     .wrap-img {
         align-items: flex-start;
-
-
-
-        /* display: flex;
-        align-items: flex-end; */
-
-        /* padding: 76px 19px; */
         width: 540px;
         align-items: start;
-        /* height: 540px; */
     }
 
     .signUp-list {
@@ -309,6 +297,8 @@ img {
 
         display: flex;
         align-items: center;
+        padding-top: 76px;
+        padding-right: 19px;
     }
 
     .signUp-list-nikon {}
@@ -321,11 +311,13 @@ img {
 
 
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
+
+        padding: 156px 50px 88px;
     }
 
-    .signUp-img-obj {}
+    .signUp-img-nikon {}
 
 
 }
